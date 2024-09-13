@@ -1,0 +1,437 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.22f1 (b6c551784ba3) revision 11978065'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'da' Physical Memory: 16221 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/SukkertoppenDDU/BoatGame
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+50587
+Successfully changed project path to: C:/Users/SukkertoppenDDU/BoatGame
+C:/Users/SukkertoppenDDU/BoatGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19904] Host "[IP] 10.146.98.3 [Port] 0 [Flags] 2 [Guid] 2031184249 [EditorId] 2031184249 [Version] 1048832 [Id] WindowsEditor(7,KKU18esport) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [19904] Host "[IP] 10.146.98.3 [Port] 0 [Flags] 2 [Guid] 2031184249 [EditorId] 2031184249 [Version] 1048832 [Id] WindowsEditor(7,KKU18esport) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 52.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.22f1 (b6c551784ba3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/SukkertoppenDDU/BoatGame/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2488)
+    Vendor:   NVIDIA
+    VRAM:     8043 MB
+    Driver:   30.0.14.9729
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56484
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002632 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 58.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.487 seconds
+Domain Reload Profiling:
+	ReloadAssembly (487ms)
+		BeginReloadAssembly (52ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (363ms)
+			LoadAssemblies (51ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (87ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (214ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (59ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (115ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002544 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\SukkertoppenDDU\BoatGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\SukkertoppenDDU\BoatGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.849 seconds
+Domain Reload Profiling:
+	ReloadAssembly (850ms)
+		BeginReloadAssembly (87ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (695ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (191ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (380ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (296ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (113.6 KB). Loaded Objects now: 3515.
+Memory consumption went from 108.0 MB to 107.9 MB.
+Total: 2.281700 ms (FindLiveObjects: 0.204100 ms CreateObjectMapping: 0.074800 ms MarkObjects: 1.934100 ms  DeleteObjects: 0.067200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1801.356442 seconds.
+  path: Assets/Simple Water Shader HDRP/Prefabs/Example 3.prefab
+  artifactKey: Guid(3f16941b9b36f414a95992d27425ee4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Water Shader HDRP/Prefabs/Example 3.prefab using Guid(3f16941b9b36f414a95992d27425ee4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c5e9be27d524bd7bb4978199ca9d60') in 0.097584 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003564 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\SukkertoppenDDU\BoatGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\SukkertoppenDDU\BoatGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.831 seconds
+Domain Reload Profiling:
+	ReloadAssembly (832ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (648ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (211ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (326ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (254ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3047 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (0.6 MB). Loaded Objects now: 3526.
+Memory consumption went from 113.1 MB to 112.5 MB.
+Total: 2.074000 ms (FindLiveObjects: 0.142400 ms CreateObjectMapping: 0.067000 ms MarkObjects: 1.685600 ms  DeleteObjects: 0.178300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 105.772275 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_7_1_Tiles.mat
+  artifactKey: Guid(d7345edb353d0794296950a9adb3ad4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_7_1_Tiles.mat using Guid(d7345edb353d0794296950a9adb3ad4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ed35feb1c9ed2e7f28f35402f7ed78') in 0.262056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_27_4_Lava.mat
+  artifactKey: Guid(7ea77b3e49c1d61409582be7e98d0d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_27_4_Lava.mat using Guid(7ea77b3e49c1d61409582be7e98d0d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e33b5f127e4b57669b526d007c5c37ca') in 0.031567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_19_4_Dirt.mat
+  artifactKey: Guid(d24bde530a6cd174cb70a68743168031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_19_4_Dirt.mat using Guid(d24bde530a6cd174cb70a68743168031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64f948b5166683f70bdbc6e1a05b4f8') in 0.016539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_58_1_Surface.mat
+  artifactKey: Guid(e94c7625cd2e80d4e8fd19b24fc89d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_58_1_Surface.mat using Guid(e94c7625cd2e80d4e8fd19b24fc89d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5402ecae42b766d4dd25445e92eb8bbe') in 0.199272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_100_1_Pixel.mat
+  artifactKey: Guid(b1a8a6908ca5ad247ad05e4d89150386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_100_1_Pixel.mat using Guid(b1a8a6908ca5ad247ad05e4d89150386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa8dc10d81a8e98c8eb60273d71c033a') in 0.116735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_26_2_Cliffs.mat
+  artifactKey: Guid(0c2d13c3615510e4a8debaef5c39c3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_26_2_Cliffs.mat using Guid(0c2d13c3615510e4a8debaef5c39c3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '843fb9db223de255d66c616210249ea7') in 0.015608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_79_5_Sci-fi.mat
+  artifactKey: Guid(378426c27b3a38f4f9e38126b22973fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_79_5_Sci-fi.mat using Guid(378426c27b3a38f4f9e38126b22973fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '358443a38643ec7449130fb7dd64aa5c') in 0.017748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_35_3_Lava.mat
+  artifactKey: Guid(b7bcd7c6b3acb3241b0d5af1a358b19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Materials/Vol_35_3_Lava.mat using Guid(b7bcd7c6b3acb3241b0d5af1a358b19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8530aaa0e2046f5d11297b3cb166aaca') in 0.096851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.101975 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/vol_2_3_Wood_Height.png
+  artifactKey: Guid(f8af072333a7c6e49a1a1de5d106e5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/vol_2_3_Wood_Height.png using Guid(f8af072333a7c6e49a1a1de5d106e5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee1c6c9e77c36632301d538f56849026') in 0.035145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_35_1_Lava_Emissive.png
+  artifactKey: Guid(b35315e0a87bc50409157914c2aa909c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_35_1_Lava_Emissive.png using Guid(b35315e0a87bc50409157914c2aa909c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b1a2fd66e7ad7e4aa832495c395bfcc') in 0.011450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_46_2_Tiles_Base_Color.png
+  artifactKey: Guid(a88ee9ed9af4fc946a99eb6839565475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_46_2_Tiles_Base_Color.png using Guid(a88ee9ed9af4fc946a99eb6839565475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1158d7361baf505441f6484f8b1d1f4') in 0.014793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_27_4_Lava_Normal.png
+  artifactKey: Guid(6ccdca07ad7366a4a82be4158f476e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_27_4_Lava_Normal.png using Guid(6ccdca07ad7366a4a82be4158f476e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e44dca31298bd9d6b17fdb5d32fe0b72') in 0.016540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_58_1_Surface_Base_Color.png
+  artifactKey: Guid(835aaa89846e1d94f8a68e97b7de5217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_58_1_Surface_Base_Color.png using Guid(835aaa89846e1d94f8a68e97b7de5217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b554d65374cc3e978616d23826768759') in 0.018157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_46_2_Tiles_Normal.png
+  artifactKey: Guid(76f51ee2128be8340950cc15ba9695dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_46_2_Tiles_Normal.png using Guid(76f51ee2128be8340950cc15ba9695dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cd5d415d0f91be1044f1e222a165e91') in 0.037430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_19_4_Dirt_Roughness.png
+  artifactKey: Guid(77f420355d0afa849827304d8e765818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_19_4_Dirt_Roughness.png using Guid(77f420355d0afa849827304d8e765818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3561d4edba49fc4ba9efc5e441a276bb') in 0.018306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_30_3_Roofs_Roughness.png
+  artifactKey: Guid(997b14fb12408ae4b85545ab9354eb06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_30_3_Roofs_Roughness.png using Guid(997b14fb12408ae4b85545ab9354eb06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06aaa7cab76c827598fe51fae5b8f8b4') in 0.018636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_35_3_Lava_Emissive.png
+  artifactKey: Guid(7d0bc04c5166d2f468e87d53b7daaa9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_35_3_Lava_Emissive.png using Guid(7d0bc04c5166d2f468e87d53b7daaa9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08634a929805811d1eede9f0d654047d') in 0.018200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_49_5_Rocks_Height.png
+  artifactKey: Guid(fb53d5a0d6094924abc1d41f07f78d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_49_5_Rocks_Height.png using Guid(fb53d5a0d6094924abc1d41f07f78d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3544607abba3603b213c167f567d4c33') in 0.018872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_36_5_Water_Roughness.png
+  artifactKey: Guid(d141606ca3998914892249c806929dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_36_5_Water_Roughness.png using Guid(d141606ca3998914892249c806929dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fd9e2b2d68e48c531ade228a9f3be6d') in 0.032362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_27_4_Lava_Base_Color.png
+  artifactKey: Guid(403e336e5700c724790ded62c739d511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_27_4_Lava_Base_Color.png using Guid(403e336e5700c724790ded62c739d511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52655e45d170c441e3419a4766dbe7bd') in 0.018107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_18_2_Metals_Normal.png
+  artifactKey: Guid(e3ca3f1466bc02b4692c4d3673d16df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_18_2_Metals_Normal.png using Guid(e3ca3f1466bc02b4692c4d3673d16df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '447381debff3fe5972626648f885a928') in 0.014878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_42_1_Vegetation_Base_Color.png
+  artifactKey: Guid(20e8f0574dfbc8f4e9ea37a90e90345f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_42_1_Vegetation_Base_Color.png using Guid(20e8f0574dfbc8f4e9ea37a90e90345f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba0c3b9e63e3920cf65487b0ad67368') in 0.011048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_23_1_Rocks_Ambient_Occlusion.png
+  artifactKey: Guid(ef520d91c394e83498031f05027a96fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_23_1_Rocks_Ambient_Occlusion.png using Guid(ef520d91c394e83498031f05027a96fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b721ff15f2630fcc9767a3b15684fc2') in 0.010984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_27_4_Lava_Ambient_Occlusion.png
+  artifactKey: Guid(9374737a39aa521408ac3988e97aa51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_27_4_Lava_Ambient_Occlusion.png using Guid(9374737a39aa521408ac3988e97aa51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3a754b51d41873617fa4694309701ba') in 0.013421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_35_3_Lava_Normal.png
+  artifactKey: Guid(a464b9a07a241e942ab6ba947dc34463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_35_3_Lava_Normal.png using Guid(a464b9a07a241e942ab6ba947dc34463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3993770332614c90a99b474d04e2eed5') in 0.012737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_18_2_Metals_Ambient_Occlusion.png
+  artifactKey: Guid(8673ac5a196c5e7429bd829afd0092a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_18_2_Metals_Ambient_Occlusion.png using Guid(8673ac5a196c5e7429bd829afd0092a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd48e8c74e09472f0704b75b0c863d5a9') in 0.011765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_35_3_Lava_Base_Color.png
+  artifactKey: Guid(36b88763521a03549b56d085b6f1e518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_35_3_Lava_Base_Color.png using Guid(36b88763521a03549b56d085b6f1e518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad6625a0524334e2b907e9116a6d7329') in 0.012779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_42_1_Vegetation_Normal.png
+  artifactKey: Guid(d79522159a1f6344d8b1c6c2ba127444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_42_1_Vegetation_Normal.png using Guid(d79522159a1f6344d8b1c6c2ba127444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6968a33bc7f9f374d392cd6b86360101') in 0.015125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_49_5_Rocks_Ambient_Occlusion.png
+  artifactKey: Guid(49a081721f60c6a44bcae188078bd036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_49_5_Rocks_Ambient_Occlusion.png using Guid(49a081721f60c6a44bcae188078bd036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a17abd9764aa03a9a3879f1b89431bc') in 0.013457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_26_2_Cliffs_Ambient_Occlusion.png
+  artifactKey: Guid(5fdfdb38e6aa18749b19bfe3a1c91a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_26_2_Cliffs_Ambient_Occlusion.png using Guid(5fdfdb38e6aa18749b19bfe3a1c91a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2285f46e011deb33accf37f75236fdf0') in 0.012209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.428713 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_67_3_Tile_Ambient_Occlusion.png
+  artifactKey: Guid(4b2e503f9242bc24db88c9f688628edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_67_3_Tile_Ambient_Occlusion.png using Guid(4b2e503f9242bc24db88c9f688628edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aa80d05528290a2c7e555d58a8224f8') in 0.012656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_79_5_Sci-fi_Height.png
+  artifactKey: Guid(fae2412306c75a640ae881ebbc15d67d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_79_5_Sci-fi_Height.png using Guid(fae2412306c75a640ae881ebbc15d67d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2842398e1f548765ca45364f40047748') in 0.012009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_79_5_Sci-fi_Base_Color.png
+  artifactKey: Guid(1e103bb5bfee2fc4aabb9e1a0ea6f4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_79_5_Sci-fi_Base_Color.png using Guid(1e103bb5bfee2fc4aabb9e1a0ea6f4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766218002d59c69a2d03e39518472020') in 0.009867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_67_3_Tile_Roughness.png
+  artifactKey: Guid(11b3f9a6d0ebac34596a61f9107f0498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Free Stylized Textures/Textures/Vol_67_3_Tile_Roughness.png using Guid(11b3f9a6d0ebac34596a61f9107f0498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dffc7a66290cadfa560c73231c731ebe') in 0.010741 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
