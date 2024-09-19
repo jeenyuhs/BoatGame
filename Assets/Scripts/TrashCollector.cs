@@ -25,7 +25,8 @@ public class TrashCollector : MonoBehaviour
     void Start()
     {
         // Initialize the score display
-        if (scoreText == null) {
+        if (scoreText == null)
+        {
             scoreTextUI = GameObject.FindWithTag("Nigga");
             scoreTextUI.AddComponent<Text>();
 
@@ -45,17 +46,15 @@ public class TrashCollector : MonoBehaviour
     {
         score += 1; // Increase score for each piece of trash collected
         UpdateScoreUI(); // Update the UI when score changes
-        Debug.Log("Trash Collected! Score: " + score);
     }
 
     // Method to update the score on the UI
     public void UpdateScoreUI()
     {
-        Time.timeScale = 1f + (float)Math.Log(Math.Pow(score, 0.4f));
+        Time.timeScale = 1f + (float)Math.Log(Math.Pow(Math.Max(score, 1), 0.4f));
 
         if (scoreText != null)
         {
-            Debug.Log("updating score to " + score);
             scoreText.text = "Opsamlet plastik: " + score; // Set the text of the score UI
         }
     }

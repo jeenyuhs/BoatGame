@@ -5,9 +5,8 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance; // Singleton instance
     public GameObject deathUI; // Reference to the death UI Canvas
-    public float freezeDelay = 1f; // Delay before freezing the game
 
-    private bool gameIsOver = false;
+    public bool gameIsOver = false;
 
     void Awake()
     {
@@ -35,7 +34,7 @@ public class GameManager : MonoBehaviour
             }
 
             // Invoke FreezeGame after a delay
-            Invoke(nameof(FreezeGame), freezeDelay);
+            FreezeGame();
         }
     }
 

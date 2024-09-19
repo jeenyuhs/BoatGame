@@ -27,7 +27,7 @@ public class PlayerController : MonoBehaviour
     void OnDeath()
     {
         // Check if the player's score is less than 0, indicating death condition
-        if (TrashCollector.Instance.score < 0)
+        if (TrashCollector.Instance.score < 0 && !GameManager.Instance.gameIsOver)
         {
             // Instantiate the death particle effect at the player's position
             if (deathEffectPrefab != null)
@@ -37,8 +37,6 @@ public class PlayerController : MonoBehaviour
 
             // Trigger the game over sequence in GameManager
             GameManager.Instance.GameOver();
-
-            Debug.Log("Player Died!"); // Placeholder for further actions
         }
     }
 }

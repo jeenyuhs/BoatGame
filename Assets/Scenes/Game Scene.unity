@@ -308,7 +308,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 20
   boundary: 20
-  deathEffectPrefab: {fileID: 0}
+  deathEffectPrefab: {fileID: 218995567}
 --- !u!114 &316143762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -880,8 +880,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e59596caab2c962468ad394a1029cfdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathUI: {fileID: 0}
-  freezeDelay: 1
+  deathUI: {fileID: 218995567}
+  gameIsOver: 0
 --- !u!4 &1083546479
 Transform:
   m_ObjectHideFlags: 0
