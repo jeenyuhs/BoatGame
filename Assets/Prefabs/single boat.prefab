@@ -1505,7 +1505,6 @@ GameObject:
   - component: {fileID: 8764403747236410677}
   - component: {fileID: 3223962178503719190}
   - component: {fileID: 509390693064506253}
-  - component: {fileID: 1824882430761037991}
   m_Layer: 0
   m_Name: single boat
   m_TagString: Player
@@ -1584,23 +1583,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1824882430761037991
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8764403747236833621}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8dcc91e3876bb04994725bd59d2f1b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  boatAnimator: {fileID: 509390693064506253}
-  Speed: 12
-  RotationSpeed: 70
-  fallOffSpeed: 35
-  speeder: {fileID: 8764403747236410677}
 --- !u!1 &8764403747236833625
 GameObject:
   m_ObjectHideFlags: 0
