@@ -27,7 +27,7 @@ public class TrashCollector : MonoBehaviour
         // Initialize the score display
         if (scoreText == null)
         {
-            scoreTextUI = GameObject.FindWithTag("Nigga");
+            scoreTextUI = GameObject.FindWithTag("GameUI");
             scoreTextUI.AddComponent<Text>();
 
             var arial = (Font)Resources.GetBuiltinResource(typeof(Font), "Arial.ttf");
@@ -38,24 +38,27 @@ public class TrashCollector : MonoBehaviour
             scoreText.alignment = TextAnchor.UpperLeft;
         }
 
-        UpdateScoreUI();
+        UpdateGameUI();
     }
 
-    // Method to handle trash collection
     public void CollectTrash()
     {
-        score += 1; // Increase score for each piece of trash collected
-        UpdateScoreUI(); // Update the UI when score changes
+        // increment score by 1
+        score++;
+        UpdateGameUI();
     }
 
-    // Method to update the score on the UI
-    public void UpdateScoreUI()
+    public void UpdateGameUI()
     {
-        Time.timeScale = 1f + (float)Math.Log(Math.Pow(Math.Max(score, 1), 0.4f));
+        // sometimes gamemanager updates faster than this gets executed
+        // and will then update the timeScale, even when it's supposed to
+        // be 0. this fixes it
+        if (!GameManager.Instance.gameIsOver)
+            Time.timeScale = 1f + (float)Math.Log(Math.Pow(Math.Max(score, 1), 0.4f));
 
         if (scoreText != null)
         {
-            scoreText.text = "Opsamlet plastik: " + score; // Set the text of the score UI
+            scoreText.text = "Opsamlet plastik: " + score + "\nAntal liv: " + PlayerHealth.Instance.currentHealth;
         }
     }
 }

@@ -1,63 +1,81 @@
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance; // Singleton instance
-    public GameObject deathUI; // Reference to the death UI Canvas
+    public GameObject deathUI;
 
-    public bool gameIsOver = false;
+    public bool shouldResetBoatPosition = false;
+
+    private bool _gameIsOver = false; 
+    
+    public bool gameIsOver
+    {
+        get { return _gameIsOver; }
+    }
 
     void Awake()
     {
-        // Implement Singleton pattern
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject); // Keep GameManager persistent across scenes
-        }
-        else
-        {
-            Destroy(gameObject);
         }
     }
 
     public void GameOver()
     {
-        if (!gameIsOver)
-        {
-            gameIsOver = true;
-            // Show the death UI
-            if (deathUI != null)
-            {
-                deathUI.SetActive(true);
-            }
-
-            // Invoke FreezeGame after a delay
-            FreezeGame();
+        // freeze the game, when it's game over.
+        Time.timeScale = 0.0f;
+        
+        _gameIsOver = true; // set the game over state
+        
+        // activate the deathUI if it's initialized.
+        if (deathUI != null) {
+            deathUI.SetActive(true);
         }
+
     }
 
-    void FreezeGame()
-    {
-        // Freeze the game by setting time scale to 0
-        Time.timeScale = 0f;
-    }
-
-    // Method to reset or restart the game
     public void RestartGame()
     {
-        // Reset time scale to 1 to unfreeze the game
-        Time.timeScale = 1f;
-        gameIsOver = false;
+        // if the game is not over, do not do anything.
+        if (!_gameIsOver)
+            return;
 
-        // Deactivate death UI
+        // deactivate the deathUI if it's initalized
         if (deathUI != null)
         {
-            deathUI.SetActive(false);
+            deathUI.SetActive(false); // Hide Death UI
         }
 
-        // Reload the current scene
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        // reset all player life and collected trash
+        TrashCollector.Instance.score = 0;
+        PlayerHealth.Instance.currentHealth = PlayerHealth.Instance.maxHealth;
+        TrashCollector.Instance.UpdateGameUI(); // update
+        
+        // reset the game speed, when the player restarts the game.
+        Time.timeScale = 1.0f;
+
+        // expose shouldResetBoatPosition to true, so the Update() function
+        // to check if the boat position should be centered again.
+        shouldResetBoatPosition = true;
+
+        // find all game objects with hazard and trash tags.
+        var hazardObjects = GameObject.FindGameObjectsWithTag("Hazard");
+        var trashObjects = GameObject.FindGameObjectsWithTag("Trash");
+
+        // loop through all hazards and destroy them.
+        foreach (GameObject hazard in hazardObjects) {
+            Destroy(hazard);
+        }
+
+        // loop through all trash and destroy them.
+        foreach (GameObject trash in trashObjects) {
+            Destroy(trash);
+        }
+
+        _gameIsOver = false; // reset the game over state for the next game
     }
 }

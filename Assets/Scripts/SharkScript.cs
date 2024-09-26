@@ -14,16 +14,19 @@ public class SharkScript : MonoBehaviour
     
     void OnTriggerEnter(Collider other)
     {
-       if (other.CompareTag("Player"))
-        {
+        if (other.CompareTag("Player"))
+        {   
+            // take away 1 score and life.
             TrashCollector.Instance.score--;
-            TrashCollector.Instance.UpdateScoreUI();
+            PlayerHealth.Instance.currentHealth--;
+            TrashCollector.Instance.UpdateGameUI();
 
             Destroy(gameObject);
         }
     }
 
-    void OnDestroy(){
+    void OnDestroy()
+    {
         if (transform.position.z < -20)
             Destroy(gameObject);
     }

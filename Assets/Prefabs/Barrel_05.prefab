@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 64725438697491898}
   - component: {fileID: 54137972637439452}
   - component: {fileID: 6325490128049814936}
+  - component: {fileID: -5696468128460470146}
   m_Layer: 0
   m_Name: Barrel_05
   m_TagString: Trash
@@ -129,3 +130,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fallSpeed: 5
+  barrelAnimator: {fileID: -5696468128460470146}
+--- !u!95 &-5696468128460470146
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1220916284279760}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3fff35e7cab38fb4fb41f65d86639eb3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

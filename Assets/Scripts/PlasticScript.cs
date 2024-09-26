@@ -16,9 +16,10 @@ public class PlasticScript : MonoBehaviour
     {
         // Check if the trash collides with the player
         if (other != null) {
+            // make sure it only executes when the collider is Player, aka boat.
             if (other.CompareTag("Player"))
             {
-                // Add score or trigger other actions
+                // increment score
                 TrashCollector.Instance.CollectTrash();
                 Destroy(gameObject);
             }
@@ -26,6 +27,7 @@ public class PlasticScript : MonoBehaviour
     }
 
     void OnDestroy() {
+        // upon object reaches the boundary, it should be destroyed, to save memory.
         if (transform.position.z < -20) {
             Destroy(gameObject);
         }
